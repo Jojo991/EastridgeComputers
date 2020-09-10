@@ -1,0 +1,123 @@
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 479px) {
+
+	html, body {
+	  margin-top: 0 !important;
+	  min-width: 320px;
+	}
+
+	#logo { margin-top: 8px; margin-left: 15px; }
+		a#logo img { width: 180px; }
+	
+	nav.primary { background-position: -814px 0; }
+
+	.metaslider { width: 97.5%; }
+
+	#sliderWrap .metaslider .caption-wrap {
+		top: -28px;
+	}
+
+	#sliderWrap .metaslider .caption-wrap h3 { margin-bottom: 4px; }
+
+	.list_carousel { width: 210px !important; }
+		.list_carousel li { height: 305px !important; }
+
+	#main h1 {
+	  font-size: 16px;
+	  line-height: 26px;
+	}	
+
+	.slogan1 p {
+	  font-size: 14px;
+	  line-height: 21px;
+	  margin: 0 0 10px 0;
+	}
+
+	#bannerArea div[id*="my_footerbannerwidget"] { width: 290px; }
+		#bannerArea div[id*="my_footerbannerwidget"] .text {
+			left: 13px;
+			top: 13px;
+		}
+
+	#bannerArea div[id*="my_footerbannerwidget"] p {
+		color: #FFFFFF;
+		font-size: 20px;
+		line-height: 26px;
+		margin: 0;
+	}
+		#bannerArea div[id*="my_footerbannerwidget"] p span { font-size: 22px; }
+		
+
+		#afterSliderArea div[id*="text"] img,
+		.safari #afterSliderArea div[id*="text"] img,
+		.chrome #afterSliderArea div[id*="text"] img {
+		  margin: -15px auto 38px;
+		}
+
+
+	.wrap_content blockquote { width: 74%; }
+
+	#beforeFooter { margin-top: 25px; }
+
+	.clearfix.box p { clear: both; display: block; }	
+	#main .box h4 { clear: both; }
+
+
+	.wrap_cf .wpcf7-form input[type="text"],
+	.wrap_cf .wpcf7-form input[type="email"],
+	.wrap_cf .wpcf7-form input[type="tel"],
+	.wrap_cf .wpcf7-form input[type="number"],
+	.wrap_cf .wpcf7-form textarea {
+	  width: 260px;
+	}
+	div.wpcf7-response-output { width: 165px; }
+
+	.search-results .post-content,
+	.author .post-content,
+	.blog .post-content {
+	  clear: both;
+	}
+
+	ol.commentlist li.comment .comment-body { padding: 138px 30px 20px 20px; }
+		li.comment .comment-body p { clear: both; }
+
+	.span3 #searchform input[type="text"] { width: 248px; }	
+
+	.error404-num { font-size: 146px; }
+
+	#error404 h2 {
+	  margin-top: 20px;
+	  margin-bottom: 0;
+	}
+
+	#error404 #searchform { width: 230px; }
+		.search-no-results #wrap_all #searchform input[type="text"],
+		.error404 #error404 #searchform input[type="text"] {
+		  width: 208px !important;
+		}
+
+
+	
+	.single-testi .testimonial .featured-thumbnail {
+		float: none !important;
+		margin: 0 0 15px 0 !important;
+	}
+		
+	
+	.single-testi #content article.testimonial {
+	  padding: 160px 15px 15px 15px !important;
+	}
+
+
+/*  *********************** END OF FILE *******************/
+} 
+
+
+
+@media screen and (max-width: 479px) and (-webkit-min-device-pixel-ratio:0) 
+{  
+	 
+}	

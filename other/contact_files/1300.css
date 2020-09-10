@@ -1,0 +1,106 @@
+/* Note: Design for a width above 1281px */
+
+
+@media only screen and (min-width: 1200px) {
+
+
+
+/*  ************************* GENERAL *********************/
+	html,
+	body {
+		min-width:1200px;
+		}
+
+/*  ************************* HEADER *************************/
+
+	/* #topnav > li > a { padding: 0 35px;  } */
+
+/*  ****************************** HOME CONTENT *****************/
+		
+	.metaslider { width: 1170px; }	
+
+
+	#caroWrap > .container { position: relative; }
+		.list_carousel li { margin-right: 17px; }	
+
+	.caroNav a.prev {
+	  margin-left: -620px;
+	  bottom: 245px;
+	}
+	.caroNav a.next {
+	  margin-right: -620px;
+	  bottom: 245px;
+	}
+	
+
+	.home #primaryWrapContent { padding-top: 50px; }
+
+
+	#beforeFooter .banners-holder {
+	  margin: 0 auto;
+	  width: 1170px;
+	}
+	#beforeFooter .banners-holder li {
+	  width: 178px;
+	}
+
+
+/*  ****************************** END OF HOME CONTENT *****************/
+
+
+/*  ****************************** SUBPAGE CONTENT ************************/
+	
+	.page-template-page-compRepair_withRightSidebar-php .wrap_content {  padding: 0 17px 10px 0; }
+
+	#sidebar #searchform input[type="text"] { width: 87%; }
+
+	.wrap_content blockquote { width: 366px; }
+
+
+	#breadcrumbs .breadcrumb { padding: 17px 0 17px 17px; }		
+				
+	/*  ************************* blog pages style ******************/
+
+	#commentform textarea {
+	  width: 719px;
+	}
+	
+	/*  **************************************************/
+		
+	.wrap_cf.main .wpcf7-form input[type="text"],
+	.wrap_cf.main .wpcf7-form input[type="email"],
+	.wrap_cf.main .wpcf7-form textarea {
+	  margin-left: 0;
+	  width: 96% !important;
+	}	
+
+	.btnSubmit { clear: both; }
+	
+
+		.span3 #searchform input[type="text"] { width: 86%; }
+
+/*  ****************************** END OF SUBPAGE CONTENT *****************/
+
+
+
+
+
+
+/*  ****************************** FOOTER ********************************/
+	
+	
+/*  ****************************** END OF FOOTER *****************/
+
+
+
+
+/*  ********************** END OF FILE ******************/
+}
+
+
+@media screen and (min-width: 1281px) and (-webkit-min-device-pixel-ratio:0) 
+{  
+	
+}
+
+

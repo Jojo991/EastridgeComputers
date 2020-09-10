@@ -1,0 +1,185 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+
+/*  ************************* GENERAL *********************/
+	html, body { min-width: 768px; }		
+
+	body #main { margin-bottom: 50px; }
+
+/*  *********************** HEADER ***************************/
+
+	#topnav > li > a {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+
+/*  ****************************** HOME CONTENT *****************/
+	
+	#sliderWrap { height: 350px; }
+	.metaslider {
+	  min-height: 300px;
+	  width: 720px;
+	} 
+		#sliderWrap .metaslider .caption-wrap {
+			top: -17px;
+		}	
+		#sliderWrap .metaslider .slides img {
+		  width: 740px;
+		}
+		#sliderWrap .metaslider .caption-wrap h2 {
+			padding: 0;
+		  font-size: 32px;
+		  line-height: 39px;
+		  margin-bottom: 0;
+		}
+
+		#sliderWrap .metaslider .caption-wrap h2 span {
+		  font-size: 37px;
+		  line-height: 42px;
+		}
+
+		#sliderWrap .metaslider .caption-wrap h3 {
+		  color: #FFFFFF;
+		  font-size: 31px;
+		  line-height: 35px;
+		}
+		
+
+	#afterSliderArea { height: 302px; }
+	#afterSliderArea:before {
+		-webkit-background-size: 1300px auto;
+		background-size: 1300px auto;
+		height: 303px;
+	}
+
+	#afterSliderArea div[id*="text"] img,
+	.safari #afterSliderArea div[id*="text"] img,
+	.chrome #afterSliderArea div[id*="text"] img {
+	  display: block;
+	  margin: -54px auto 56px;
+	  width: 720px;
+	}
+	
+	#afterSliderArea h1 { font-size: 30px; }
+	.list_carousel li { margin-right: 31px;	}	
+
+	#primaryWrapContent { padding: 0 0 50px 0; }
+
+	#beforeFooter .banners-holder {
+	  margin: 0 auto;
+	  width: 720px;
+	}
+		#beforeFooter .banners-holder li { width: 102px; }
+			.banners-holder img { width: 100%; }
+
+
+	#primaryWrapContent #home-content img { width: 96%; }
+
+/*  ****************************** END OF HOME CONTENT *****************/
+
+
+	
+
+
+/*  ****************************** SUBPAGE CONTENT ************************/
+
+
+	.wrap_content blockquote { width: 200px; }
+
+	.wpcf7-form .leftPart { width: 240px; }
+	.wpcf7-form .rightPart { width: 464px; }
+		.wrap_cf .wpcf7-form input[type="text"],
+		.wrap_cf .wpcf7-form input[type="email"],
+		.wrap_cf .wpcf7-form textarea {
+		  width: 95%;
+		}
+		
+
+	.single #primaryWrapContent .featured-thumbnail img,
+	.archive #primaryWrapContent .featured-thumbnail img,
+	.blog #primaryWrapContent .featured-thumbnail img,
+	.page-template-page-blog-php #primaryWrapContent .featured-thumbnail img,
+	.search #primaryWrapContent .featured-thumbnail img {
+	  width: 238px;
+	}	
+	
+	.testimonial .featured-thumbnail img { width: auto !important; }
+
+	#sidebar #searchform input[type="text"] { width: 77%; }
+
+	
+	.list.numeric_list li { margin-bottom: 20px; }
+
+	
+	/* .single-portfolio .two_third, .single-portfolio .one_third { width: 100%; } */
+
+	.palaroidBox li .featured-thumbnail { display: block; }
+
+	.teamBoxs li { text-align: center; }
+		#main .teamBoxs h5 a { text-align: center; }
+		.teamBoxs .featured-thumbnail {
+		  display: block;
+		  float: none;
+		  margin: 0 auto 10px;
+		  width: 140px;
+		}
+
+	.post-meta, .post-meta a, .post-meta time, .wrapMeta b a  { font-size: 10px; }	
+
+
+
+	/*  ************************* blog pages style ******************/
+
+	#commentform textarea { width: 410px; }
+		
+	/*  **********************************************/
+
+	.blog #content article.post-holder .post-content {
+	  padding-left: 270px;
+	}
+	
+	.wrap_cf .wpcf7-form input[type="text"],
+	.wrap_cf .wpcf7-form input[type="email"],
+	.wrap_cf .wpcf7-form input[type="number"],
+	.wrap_cf .wpcf7-form textarea {
+	  width: 90.5%;
+	}
+
+	.wrap_cf .wpcf7-form textarea {
+	  width: 94.5%;
+	}
+
+	.span3 #searchform input[type="text"] { width: 78%; }
+
+	#primaryWrapContent .clearfix.box img { max-width: 200px; }
+
+
+	#beforeFooter div[id*="text"] img {
+	  margin-top: -37px;
+	}
+	
+	#beforeFooter h1, #beforeFooter h1 span a[href*="callto"] {
+		font-size: 21px;
+		line-height: 27px;
+	}	
+	
+/*  ****************************** END OF SUBPAGE CONTENT *****************/
+
+
+
+
+
+
+/*  ****************************** FOOTER ********************************/
+
+	#footer { font-size: 13px; }
+
+
+/*  ********************** END OF FILE ******************/
+}
+
